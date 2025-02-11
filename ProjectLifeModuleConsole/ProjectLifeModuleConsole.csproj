@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="9.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HolyGift\HolyGift.csproj" />
+    <ProjectReference Include="..\ILogger\ILogger.csproj" />
+    <ProjectReference Include="..\Judgment\Judgment.csproj" />
+    <ProjectReference Include="..\OLogger\OLogger.csproj" />
+    <ProjectReference Include="..\ProjectLifeModuleCase\ProjectLifeModuleCase.csproj" />
+    <ProjectReference Include="..\ProjectLifeModuleManagement\ProjectLifeModuleManagement.csproj" />
+    <ProjectReference Include="..\TCTUtility\TCTUtility.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.35" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HolyGift\HolyGift.csproj" />
+    <ProjectReference Include="..\ILogger\ILogger.csproj" />
+    <ProjectReference Include="..\Judgment\Judgment.csproj" />
+    <ProjectReference Include="..\ProjectLifeModuleManagement\ProjectLifeModuleManagement.csproj" />
+    <ProjectReference Include="..\TCTUtility\TCTUtility.csproj" />
+  </ItemGroup>
+
+</Project>

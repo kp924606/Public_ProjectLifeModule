@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="HolyGift\**" />
+    <Compile Remove="ILogger\**" />
+    <Compile Remove="Judgment\**" />
+    <Compile Remove="OLogger\**" />
+    <Compile Remove="ProjectLifeModuleCase\**" />
+    <Compile Remove="ProjectLifeModuleConsole\**" />
+    <Compile Remove="ProjectLifeModuleManagement\**" />
+    <Compile Remove="TCTUtility\**" />
+    <EmbeddedResource Remove="HolyGift\**" />
+    <EmbeddedResource Remove="ILogger\**" />
+    <EmbeddedResource Remove="Judgment\**" />
+    <EmbeddedResource Remove="OLogger\**" />
+    <EmbeddedResource Remove="ProjectLifeModuleCase\**" />
+    <EmbeddedResource Remove="ProjectLifeModuleConsole\**" />
+    <EmbeddedResource Remove="ProjectLifeModuleManagement\**" />
+    <EmbeddedResource Remove="TCTUtility\**" />
+    <None Remove="HolyGift\**" />
+    <None Remove="ILogger\**" />
+    <None Remove="Judgment\**" />
+    <None Remove="OLogger\**" />
+    <None Remove="ProjectLifeModuleCase\**" />
+    <None Remove="ProjectLifeModuleConsole\**" />
+    <None Remove="ProjectLifeModuleManagement\**" />
+    <None Remove="TCTUtility\**" />
+  </ItemGroup>
+
+</Project>
