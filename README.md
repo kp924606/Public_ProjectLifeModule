@@ -1,3 +1,5 @@
+![](https://img.shields.io/badge/Creater-TCT-FFFF00) ![](https://img.shields.io/badge/development-csharp-006400) ![](https://img.shields.io/badge/SDK-DotNet8-blue) ![](https://img.shields.io/badge/Tool-VisualStudio2022-222222) ![](https://img.shields.io/badge/OS-Windows-FF8022)
+
 # ProjectLifeModule
 - The following explanation is provided in both Traditional Chinese and English.
 
