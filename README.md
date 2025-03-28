@@ -1,6 +1,10 @@
 # ProjectLifeModule
 - The following explanation is provided in both Traditional Chinese and English.
 
+# 詳細說明，我建置在GitBook上，請參閱:
+https://cai-cheng-ting-optimuss-organiza.gitbook.io/projectlifemodule
+
+
 ## 1.本準則的核心目的是提供一套心法、指引並舉例數個程序的派工、執行緒模組.
 The core purpose of this guideline is to provide a mindset, guidance, and examples of several procedures for task assignment and execution thread modules.
 
